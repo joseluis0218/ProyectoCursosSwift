@@ -13,6 +13,8 @@
 		7408AC30226F90DD00702656 /* Notas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7408AC2E226F90DD00702656 /* Notas.xcdatamodeld */; };
 		7408AC32226F90DD00702656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7408AC31226F90DD00702656 /* Assets.xcassets */; };
 		7408AC35226F90DD00702656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7408AC33226F90DD00702656 /* LaunchScreen.storyboard */; };
+		7433485D2272F9D900C3D798 /* CrearCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433485C2272F9D900C3D798 /* CrearCursoViewController.swift */; };
+		748D58B52272CCFF0071151C /* DetalleCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748D58B42272CCFF0071151C /* DetalleCursoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7408AC31226F90DD00702656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7408AC34226F90DD00702656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7408AC36226F90DD00702656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7433485C2272F9D900C3D798 /* CrearCursoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearCursoViewController.swift; sourceTree = "<group>"; };
+		748D58B42272CCFF0071151C /* DetalleCursoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCursoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		7408AC26226F90DD00702656 /* Notas */ = {
 			isa = PBXGroup;
 			children = (
+				7433485C2272F9D900C3D798 /* CrearCursoViewController.swift */,
+				748D58B42272CCFF0071151C /* DetalleCursoViewController.swift */,
 				7408AC27226F90DD00702656 /* AppDelegate.swift */,
 				7408AC29226F90DD00702656 /* ViewController.swift */,
 				7408AC2B226F90DD00702656 /* Main.storyboard */,
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7408AC2A226F90DD00702656 /* ViewController.swift in Sources */,
+				748D58B52272CCFF0071151C /* DetalleCursoViewController.swift in Sources */,
+				7433485D2272F9D900C3D798 /* CrearCursoViewController.swift in Sources */,
 				7408AC30226F90DD00702656 /* Notas.xcdatamodeld in Sources */,
 				7408AC28226F90DD00702656 /* AppDelegate.swift in Sources */,
 			);
